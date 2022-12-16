@@ -88,4 +88,27 @@ ou ne contient que des caractères d'espacement?
     Reps :
     FAUX
 
-8- 
+8- Parmi ces deux propositions, laquelle préférez-vous ?
+
+    Proposition #1 :
+        interface CapableDeVoler {
+           void vole();
+        }
+        abstract class Avion implements CapableDeVoler {}
+        abstract class Oiseau implements CapableDeVoler {}
+
+     Proposition #2 :
+        abstract class Avion {
+           abstract void vole();
+        }
+       abstract class Oiseau extends Avion {}
+    
+    Reps :
+         La proposition #1
+
+9- Une classe abstraite peut contenir des méthodes concrètes 
+
+    Reps :
+    FAUX
+
+10- 
